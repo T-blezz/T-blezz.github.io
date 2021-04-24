@@ -1,1 +1,1 @@
-# T-blezz.github.io
+# This is a temporary Homepage of T-blezz.com
