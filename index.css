@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: darkred;
+	padding: 2%;
+	height: 70px;
+}
+header a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+}
+div#navbar a{
+	padding: 5%;
+}
+div#log{
+	float: right;
+	margin-top: 30px;
+	margin-right: 85px;
+	width: 150px;
+}
+
+div#log a{
+	padding: 3%;
+	border: 2px solid red;
+}
+div.page_contents{
+	margin-top: 10px;
+	border-top: 3px solid red;
+}
+div.logo img{
+	width: 400px;
+	height: 400px;
+}
+
+@media(max-width: 50em){
+	header{
+		padding: 1.2%;
+	}
+	header a{
+		font-size: .6em;
+	}
+	div#navbar a{
+		padding: 1.6%;
+	}
+	div#log{
+		margin-top: 13px;
+		margin-right: 0px;
+	}
+	div#log a{
+		padding: 2%;
+	}
+	div.logo img{
+		width: 200px;
+		height: 200px;
+	}
+}
